@@ -14,6 +14,9 @@ gem 'pg', group: :production
 
 # 12 factor for heroku
 gem 'rails_12factor', group: :production
+
+# Add bootstrap for styling
+gem 'bootstrap'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
