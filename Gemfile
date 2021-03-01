@@ -18,8 +18,12 @@ gem 'rails_12factor', group: :production
 # stripe for taking payments
 gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 
+# Figaro to securely configure App
+gem 'figaro'
+
 # Add bootstrap for styling
 gem 'bootstrap-sass'
+
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
